@@ -12,10 +12,10 @@ def isLeapYear(year: int) -> bool:
 
 
 if __name__ == "__main__":
-    years: list[int] = [2020, 2021, 2023]
+    years = [2020, 2021, 2023]
     #results: list[bool] = [print(f"{years[index]} : {isLeapYear(year)}")
     # for index, year in enumerate(years)]
-    results: list[bool] = [print(f"{year} is leap year") if isLeapYear() 
+    results = [print(f"{year} is leap year") if isLeapYear() 
     else print(f"{year} is not leap year") for year in years]
     
     # print(f"{year} is a Leap Year" if isLeapYear(year) else f"{year} is not a Leap Year")
