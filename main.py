@@ -8,6 +8,9 @@ def multiply(a: int, b: int) -> int:
     return res
 
 
+print("Added a new line")
+
+
 def power(a: int, b: int) -> int:
     #   a^b = a*a*a*a....b  times
     res = 1
